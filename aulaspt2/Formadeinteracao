@@ -1,0 +1,11 @@
+var MeuSet = new Set();
+
+MeuSet.add(1);
+MeuSet.add(5);
+MeuSet.add(5);
+MeuSet.add('texto');
+var o = {a: 1, b: 2};
+MeuSet.add(0);
+
+for (let item of MeuSet) 
+console.log(item);
